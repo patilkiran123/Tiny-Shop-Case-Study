@@ -6,7 +6,7 @@ To successfully answer all the questions and extract the data, we should have be
 
 Basic aggregations, CASE WHEN statements, Joins, Date time functions, CTEs
 
-**Questions**
+## Questions
 
 1. Which product has the highest price? Only return a single row.
 2. Which customer has made the most orders?
@@ -19,10 +19,24 @@ Basic aggregations, CASE WHEN statements, Joins, Date time functions, CTEs
 9. For each order, determine if it was Expensive' (total over 300), Affordable' (total over 100), or 'Cheap'.
 10. Find customers who have ordered the product with the highest price.
 
-**Few Pointers:**
+## Few Pointers
 
 - Whenever there are non-aggregate and aggregate columns in the **SELECT** clause, it's generally necessary to include those non-aggregated columns in the GROUP BY clause.
 
 - An alias assigned in the SELECT clause **cannot** be used in the GROUP BY clause.
 
-For Tiny Shop Sales schema **[Click Here](/schema.txt)**
+### For Tiny Shop Sales schema **[Click Here](/schema.txt)**
+
+### For SQL Queries **[Click Here](/sql_queries.txt)**
+
+### To View Results **[Watch the Clip](/SQL%20Case%20Study-Tiny%20Shop%20Sales.mp4)**
+
+## Credits
+
+The SQL Case Study: Tiny Shop Sales was completed as part of the [d-i-motion.com](https://d-i-motion.com/lessons/customer-orders-analysis/) lessons on customer orders analysis.
+
+- Website: [d-i-motion.com](https://d-i-motion.com)
+
+---
+
+Feel free to fork this project...
